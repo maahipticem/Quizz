@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Luckiest Guy', cursive;
+    src : url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+}
+@font-face{
+    font-family: 'Monoton', cursive;
+    src : url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+}
+   
+
+:root{ 
+    --black1: #000;
+    --white1: #FFFF;
+    --blue1: #0DD0EB;
+    --grey1: #5C6664;
+    --yellow1:#DDFF0A;
+    --grey2:#D9D9D9;
+}
+
+p{
+    font-family: "Luckiest Guy", sans-serif;
+}
+
