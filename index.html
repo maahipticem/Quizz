@@ -2,26 +2,25 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=-, initial-scale=1.0" />
-    <title>Quizz le plus dur de France</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
 </head>
 
 <body>
     <header>
         <div class="header-container">
-            <h1>QUIZZ <span><i class="fa-solid fa-bath"></i></span>Challenge</h1>
-            <img src="./img/img1" alt="" srcset="" />
+            <h1>QUIZZ<br> Challenge</h1>
+
             <h2>ton pseudo:<span class="speudo"></span></h2>
         </div>
     </header>
     <main>
-        <div>
+        <img src="./asset/image.png" alt="">
+        <div class="selecteur">
             <select name="City" id="">
                 <option value="">--choisie ta ville--</option>
                 <option value="LYON">LYON</option>
@@ -30,25 +29,29 @@
                 <option value="BAYONNE">BAYONNE</option>
                 <option value="CHARTRES">CHARTRES</option>
             </select>
+            <button oninput="" id="start">Start</button>
         </div>
-    </main>
 
-    <p>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92100.56867926556!2d4.272642858057628!3d43.832137558683186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b42d0bd6e85339%3A0xde88134f9f200c03!2zTsOubWVz!5e0!3m2!1sfr!2sfr!4v1484817447856"
-            width="300" height="200" frameborder="0" style="border: 0" allowfullscreen>
-        </iframe>
-    </p>
+
+
+
+        <div class="question-container">
+            <p id="question">Question</p>
+            <input type="button" id="reponse1" name="rep" value="reponse1">
+            <input type="button" id="reponse2" name="rep" value="reponse2">
+            <input type="button" id="reponse3" name="rep" value="reponse3">
+            <input type="button" id="reponse4" name="rep" value="reponse4">
+        </div>
+
+    </main>
     <footer>
         <p>
-            Tu t'appretes à faire le quizz le plus dur de France attention tu dois
-            activer le chrono pour chaque question. Aide toi de la maps pour
-            répondre aux questions. BONNE CHANCE !!!!
+            Tu t'appretes à faire le quizz le plus dur de France attention tu dois activer le chrono pour chaque
+            question. Aide toi de la maps pour répondre aux questions. BONNE CHANCE !!!!
         </p>
           
     </footer>
-
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
