@@ -4,7 +4,7 @@ let score = 0;
 
 
 const questionElement = document.querySelector("#question");
-const optionElements = document.querySelectorAll("input[name='rep']");
+const optionElements = document.querySelectorAll("input[class='rep']");
 const button = document.querySelector("#start");
 const container = document.querySelector(".question-container");
 
@@ -53,7 +53,7 @@ const answer = (e) => {
     setTimeout(() => {
         currentQuestion++;
         display();
-    }, 2000);
+    }, 750);
 };
 
 // Attachez l'événement "click" au bouton de démarrage
