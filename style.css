@@ -25,8 +25,9 @@
   --yellow1: #ddff0a;
   --grey2: #d9d9d9;
 }
-body {
-  background-color: var(--blue1);
+body{
+    background-color:#0dd0eb;
+    
 }
 h1 {
   color: var(--yellow1);
@@ -66,17 +67,19 @@ main {
   justify-content: center;
   flex-direction: column;
 }
-.selecteur {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.selecteur{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
 }
-/* .City{
-  display: flex ;
+ select{
+  display: center ;
   align-items: center;
   justify-content: center;
-} */
+} 
+
 p {
   font-family: "Luckiest Guy", sans-serif;
 }
@@ -138,6 +141,7 @@ p {
 }
 
 
+
 #note{
   display: none;
 }
@@ -157,6 +161,21 @@ p {
   margin-top: 6rem;
   display: none;
 }
-@media screen and (min-width: 391px) {
- 
+
+#timer {
+  font-weight: bold;
+  font-size: 3em;
+  color:#d9d9d9;
+  text-shadow: 1px 1px 2px rgb(47, 43, 43);;
 }
+#new{
+  background-color: #000;
+  color: #d9d9d9;
+  border: solid 1px white;
+  border-radius: 15px;
+  font-family: "Luckiest Guy";
+  font-size: 1rem;
+  display: none;
+  margin-top:20px ;
+}
+

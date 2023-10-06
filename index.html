@@ -22,9 +22,9 @@
         </div>
     </header>
     <main>
-
-        <img src="./asset/image.png" alt="">
-
+    
+        <img src="./asset/image.png" alt="" height="200" >
+       
         <div class="selecteur">
             <select name="City" id="">
                 <option value="">--choisie ta ville--</option>
@@ -34,11 +34,10 @@
                 <option value="BAYONNE">BAYONNE</option>
                 <option value="CHARTRES">CHARTRES</option>
             </select>
-
+            
         </div>
-        <button oninput="" id="start">start</button>
-
-
+        <button oninput="" id="start">Start</button>
+        <div id="timer"></div>
 
 
         <div class="question-container">
@@ -51,12 +50,18 @@
                 <input type="button" id="reponse4" class="rep" value="reponse4">
 
             </div>
+            <div class="relance">
+                 <input type="button" id="new" onClick=window.location.reload(); class ="refraiche" value="aller on recommence" >
+
+            </div>
 
         </div>
+
         <div class="noteQuizz">
             <input type="text" placeholder="Note ton quizz sur 5 " id="note" class="">
             <button id="buttonNote"> ok </button>
         </div>
+
 
         <div class="coordonnées">
             <p>Quizz proposé par H.A.S.T <br> suit nous sur GIT HUB pour <br> plus de QUIZZ </p>
@@ -69,7 +74,7 @@
         </p>
 
     </footer>
-    <script src="index.js"></script>
+    <script src="index.js" ></script>
 </body>
 
 </html>
