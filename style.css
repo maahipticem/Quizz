@@ -46,9 +46,20 @@ h2 {
   justify-content: center;
   text-align: center;
   font-family: "Luckiest Guy";
-  padding: 40px 0 40px 0;
+  padding: 40px 0 5px 0;
 }
-
+.titreDeux {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#tonPseudo{
+  color: #d9d9d9;
+  font-family: "Luckiest Guy";
+  font-size: 2rem;
+  text-align: center;
+}
 main {
   display: flex;
   align-items: center;
@@ -71,7 +82,8 @@ p {
 }
 
 footer {
-  position: fixed;
+  margin-top: 10rem;
+  /*position: fixed;*/
   width: 100%;
   bottom: 0;
   color: white;
@@ -123,4 +135,28 @@ p {
   border-radius: 15px;
   font-family: "Luckiest Guy";
   font-size: 1rem;
+}
+
+
+#note{
+  display: none;
+}
+
+#buttonNote{
+  display: none;
+}
+
+.noteQuizz{
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coordonnées{
+  margin-top: 6rem;
+  display: none;
+}
+@media screen and (min-width: 391px) {
+ 
 }
