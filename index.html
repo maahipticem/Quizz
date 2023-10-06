@@ -19,7 +19,7 @@
         </div>
     </header>
     <main>
-        
+    
         <img src="./asset/image.png" alt="" height="200" >
        
         <div class="selecteur">
@@ -34,18 +34,26 @@
             
         </div>
         <button oninput="" id="start">Start</button>
-
+        <div id="timer"></div>
 
 
         <div class="question-container">
             <p id="question">Question</p>
             <div class="container">
-            <input type="button" id="reponse1" name="rep" value="reponse1">
-            <input type="button" id="reponse2" name="rep" value="reponse2">
-            <input type="button" id="reponse3" name="rep" value="reponse3">
-            <input type="button" id="reponse4" name="rep" value="reponse4">
+
+                <input type="button" id="reponse1" class="rep" value="reponse1">
+                <input type="button" id="reponse2" class="rep" value="reponse2">
+                <input type="button" id="reponse3" class="rep" value="reponse3">
+                <input type="button" id="reponse4" class="rep" value="reponse4">
+
             </div>
+            <div class="relance">
+                 <input type="button" id="new" onClick=window.location.reload(); class ="refraiche" value="aller on recommence" >
+
+            </div>
+
         </div>
+       
 
     </main>
     <footer>
@@ -53,8 +61,9 @@
             Tu t'appretes à faire le quizz le plus dur de France attention tu dois activer le chrono pour chaque
             question. Aide toi de la maps pour répondre aux questions. BONNE CHANCE !!!!
         </p>
+
     </footer>
-    <script src="index.js"></script>
+    <script src="index.js" ></script>
 </body>
 
 </html>
