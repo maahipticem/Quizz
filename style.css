@@ -24,6 +24,7 @@ body {
     src: url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 }
 
+
  :root {
     --black1: #000;
     --white1: #ffff;
@@ -31,9 +32,8 @@ body {
     --grey1: #5c6664;
     --yellow1: #ddff0a;
     --grey2: #d9d9d9;
+    
 }
-
-
 
 h1 {
     color: var(--yellow1);
@@ -44,6 +44,7 @@ h1 {
 }
 
 h2 {
+
     color: #ffff;
     display: flex;
     align-items: center;
@@ -61,11 +62,52 @@ main {
     margin-top: 65%;
 }
 
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Luckiest Guy";
+  padding: 40px 0 5px 0;
+}
+.titreDeux {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#tonPseudo{
+  color: #d9d9d9;
+  font-family: "Luckiest Guy";
+  font-size: 2rem;
+  text-align: center;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.selecteur{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+ select{
+  display: center ;
+  align-items: center;
+  justify-content: center;
+} 
+
+
 p {
     font-family: "Luckiest Guy", sans-serif;
 }
 
 footer {
+
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -74,6 +116,17 @@ footer {
     margin-bottom: 1rem;
     font-size: 1.5rem;
     display: none;
+
+  margin-top: 10rem;
+  /*position: fixed;*/
+  width: 100%;
+  bottom: 0;
+  color: white;
+  font-family: "Luckiest Guy";
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+
 }
 
 #start {
@@ -166,3 +219,43 @@ footer {
 .question-container.question-containerTest {
     width: 100%;
 }
+
+
+
+#note{
+  display: none;
+}
+
+#buttonNote{
+  display: none;
+}
+
+.noteQuizz{
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coordonnées{
+  margin-top: 6rem;
+  display: none;
+}
+
+#timer {
+  font-weight: bold;
+  font-size: 3em;
+  color:#d9d9d9;
+  text-shadow: 1px 1px 2px rgb(47, 43, 43);;
+}
+#new{
+  background-color: #000;
+  color: #d9d9d9;
+  border: solid 1px white;
+  border-radius: 15px;
+  font-family: "Luckiest Guy";
+  font-size: 1rem;
+  display: none;
+  margin-top:20px ;
+}
+

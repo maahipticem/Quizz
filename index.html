@@ -16,6 +16,7 @@
             <h1>QUIZZ<br> Challenge</h1>
 
 
+
         </div>
     </header>
     <main>
@@ -26,6 +27,20 @@
         <button oninput="" id="start">start</button>
 
 
+
+            <div class=titreDeux>
+                <h2 id="pseudoSupprimer">ton pseudo:</h2><span id="tonPseudo" class="pseudo"></span>
+                <input type="text" placeholder="Entre ton pseudo" id="pseudo" class="">
+                <button id="buttonPseudo"> ok </button>
+            </div>
+        </div>
+    </header>
+    <main>
+    
+        <img src="./asset/image.png" alt="" height="200" >
+      
+        <button oninput="" id="start">Start</button>
+        <div id="timer"></div>
 
 
         <div class="question-container">
@@ -38,9 +53,22 @@
                 <input type="button" id="reponse4" class="rep" value="reponse4">
 
             </div>
+            <div class="relance">
+                 <input type="button" id="new" onClick=window.location.reload(); class ="refraiche" value="aller on recommence" >
+
+            </div>
 
         </div>
 
+        <div class="noteQuizz">
+            <input type="text" placeholder="Note ton quizz sur 5 " id="note" class="">
+            <button id="buttonNote"> ok </button>
+        </div>
+
+
+        <div class="coordonnées">
+            <p>Quizz proposé par H.A.S.T <br> suit nous sur GIT HUB pour <br> plus de QUIZZ </p>
+        </div>
     </main>
     <footer>
         <p class="footerp">
@@ -48,7 +76,7 @@
         </p>
 
     </footer>
-    <script src="index.js"></script>
+    <script src="index.js" ></script>
 </body>
 
 </html>
