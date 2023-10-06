@@ -22,10 +22,16 @@ const questions = [
         answer: "Paris",
     },
     {
-        question: "Quel est le plus grand océan du monde ?",
-        options: ["Océan Atlantique", "Océan Arctique", "Océan Indien", "Océan Pacifique"],
-        answer: "Océan Pacifique",
+        question: "Quel est la mer qui est au sud de la France ?",
+        options: ["mer Atlantique", "mer mediterrannée", "mer rouge", "mer Pacifique"],
+        answer: "mer mediterrannée",
     },
+    {
+        question: "De quelle couleur est le drapeau de la France ?",
+        options: ["bleu blanc rouge", "rouge bleu blanc", "bleu rouge blanc", "ou l'autre"],
+        answer: "bleu blanc rouge"
+    
+    }
 ];
 
 function compteARebours(info) {
