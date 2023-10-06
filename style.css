@@ -1,126 +1,168 @@
-.question-container {
-  display: none;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-@font-face {
-  font-family: "Luckiest Guy", cursive;
-  src: url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
-}
-
-@font-face {
-  font-family: "Monoton", cursive;
-  src: url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
-}
-
-:root {
-  --black1: #000;
-  --white1: #ffff;
-  --blue1: #0dd0eb;
-  --grey1: #5c6664;
-  --yellow1: #ddff0a;
-  --grey2: #d9d9d9;
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 body {
-  background-color: var(--blue1);
+    background: url("./asset/HD-wallpaper-synthwave-blue-higgsas-iphone-mountain-old-school-outrun-purple-retro-samsung-sun-vaporwave.jpg") fixed center/cover;
+    background-repeat: no-repeat;
 }
+
+.question-container {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Luckiest Guy", cursive;
+    src: url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+}
+
+@font-face {
+    font-family: "Monoton", cursive;
+    src: url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+}
+
+ :root {
+    --black1: #000;
+    --white1: #ffff;
+    --blue1: #0dd0eb;
+    --grey1: #5c6664;
+    --yellow1: #ddff0a;
+    --grey2: #d9d9d9;
+}
+
+
+
 h1 {
-  color: var(--yellow1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-family: "Monoton";
-  font-weight: 300;
-  font-size: 3.2rem;
+    color: var(--yellow1);
+    text-align: center;
+    font-family: "Monoton";
+    font-weight: 300;
+    font-size: 3.2rem;
 }
 
 h2 {
-  color: #ffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-family: "Luckiest Guy";
-  padding: 40px 0 40px 0;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Luckiest Guy";
+    padding: 40px 0 40px 0;
 }
 
 main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 65%;
 }
-.selecteur {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-/* .City{
-  display: flex ;
-  align-items: center;
-  justify-content: center;
-} */
+
 p {
-  font-family: "Luckiest Guy", sans-serif;
+    font-family: "Luckiest Guy", sans-serif;
 }
 
 footer {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  color: white;
-  font-family: "Luckiest Guy";
-  text-align: center;
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    display: none;
 }
 
 #start {
-  width: 60%;
-  background-color: #5c6664;
-  height: 40px;
-  border-radius: 10px;
-  margin-top: 50px;
-  font-family: "Luckiest Guy";
-  color: #d9d9d9;
-  font-size: 1.5rem;
-  letter-spacing: 3px;
+    width: 60%;
+    background-color: #070c0b;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 70%;
+    font-family: "Luckiest Guy";
+    color: #d9d9d9;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
 }
 
 #start:hover {
-  color: #ddff0a;
+    color: #d6e958;
 }
 
 .question-container {
-  padding-top: 40px;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
 }
+
+.question-containerTest {
+    margin-top: 50%;
+}
+
+#question {
+    font-family: "Luckiest Guy";
+    padding-bottom: 25px;
+    color: #110f0f;
+    text-align: center;
+    font-size: 1.5rem;
+    background: #ffffff62;
+    padding: 10px 20px;
+    width: 90%;
+    border-radius: 5px;
+}
+
 .container {
-  width: 109%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 55px;
+    margin-left: -5px;
 }
 
 .rep {
-  height: 35px;
-  width: 44%;
-  margin: 5px;
+    height: 43px;
+    margin: 5px;
+    
 }
-p {
-  color: #d9d9d9;
+
+.footerp {
+    font-family: "Luckiest Guy";
+    color: #0c0909;
 }
-.container > input {
-  background-color: #000;
-  color: #d9d9d9;
-  border: solid 1px white;
-  border-radius: 15px;
-  font-family: "Luckiest Guy";
-  font-size: 1rem;
+
+.container>input {
+    align-items: center;
+    border-radius: 8px;
+    background: #ffffff85;
+    cursor: pointer;
+    display: inline-flex;
+    text-transform: uppercase;
+    height: 56px;
+    justify-content: center;
+    line-height: 1;
+    text-align: center;
+    transition: box-shadow 0.15s, transform 0.15s;
+    font-size: 14px;
+    font-weight: 300;
+    border: none;
+    font-family: "Luckiest Guy";
+    color: #040202;
+    
+}
+
+.container>input:hover {
+    transform: translateY(-2px);
+}
+
+.question-container.question-containerTest {
+    width: 100%;
 }

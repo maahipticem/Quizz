@@ -9,17 +9,44 @@ const button = document.querySelector("#start");
 const container = document.querySelector(".question-container");
 
 
-const questions = [{
-        question: "Quelle est la capitale de la France ?",
-        options: ["Paris", "Londres", "Berlin", "Madrid"],
-        answer: "Paris",
+const questions = [
+    {
+        question: "Quelle est la vitesse du son ?",
+        options: ["340 km/h", "450 km/h", "1000 km/h", "300 000 km/h"],
+        answer: "340 km/h", 
     },
     {
-        question: "Quel est le plus grand océan du monde ?",
-        options: ["Océan Atlantique", "Océan Arctique", "Océan Indien", "Océan Pacifique"],
-        answer: "Océan Pacifique",
+        question: "Que signifie l'acronyme ADN ?",
+        options: ["Acide Désoxyribonucléique", "Activité Définie Nucléique", "Acide Dinenocleique Naturel", "Activité Définitive Normal"],
+        answer: "Acide Désoxyribonucléique", 
+    },
+    {
+        question: "Quel est le groupe sanguin le plus rare ?",
+        options: ["AB+", "O-", "B+", "AB-"],
+        answer: "AB-",
+    },
+    {
+        question: "Combien de cœurs a une pieuvre ?",
+        options: ["1", "6", "0", "3"],
+        answer: "3",
+    },
+    {
+        question: "Qui a remporté l'Euro (Championnat Européen) en 2004 ?",
+        options: ["Portugal", "Belgique", "Grèce", "Brésil"],
+        answer: "Grèce", 
+    },
+    {
+        question: "Quel est le seul joueur à avoir remporté la Coupe du Monde plus de 2 fois ?",
+        options: ["Pelé", "Messi", "Cristiano Ronaldo", "Mitroglou"],
+        answer: "Pelé",
+    },
+    {
+        question: "Dans quelle ville est née la pétanque ?",
+        options: ["Roubaix", "Rio de Janeiro", "Marseille", "La Ciotat"],
+        answer: "La Ciotat", 
     },
 ];
+
 
 // Fonction pour afficher la question actuelle et les réponses
 const display = () => {
@@ -53,11 +80,12 @@ const answer = (e) => {
     setTimeout(() => {
         currentQuestion++;
         display();
-    }, 750);
+    }, 2000);
 };
 
 // Attachez l'événement "click" au bouton de démarrage
 button.addEventListener("click", () => {
     container.style.display = "flex"; 
     display(); 
+    button.style.display = 'none'
 });
