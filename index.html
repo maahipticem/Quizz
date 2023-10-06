@@ -19,9 +19,9 @@
         </div>
     </header>
     <main>
-
-        <img src="./asset/image.png" alt="">
-
+    
+        <img src="./asset/image.png" alt="" height="200" >
+       
         <div class="selecteur">
             <select name="City" id="">
                 <option value="">--choisie ta ville--</option>
@@ -31,11 +31,10 @@
                 <option value="BAYONNE">BAYONNE</option>
                 <option value="CHARTRES">CHARTRES</option>
             </select>
-
+            
         </div>
-        <button oninput="" id="start">start</button>
-
-
+        <button oninput="" id="start">Start</button>
+        <div id="timer"></div>
 
 
         <div class="question-container">
@@ -48,8 +47,13 @@
                 <input type="button" id="reponse4" class="rep" value="reponse4">
 
             </div>
+            <div class="relance">
+                 <input type="button" id="new" onClick=window.location.reload(); class ="refraiche" value="aller on recommence" >
+
+            </div>
 
         </div>
+       
 
     </main>
     <footer>
@@ -59,7 +63,7 @@
         </p>
 
     </footer>
-    <script src="index.js"></script>
+    <script src="index.js" ></script>
 </body>
 
 </html>
