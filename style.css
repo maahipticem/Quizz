@@ -24,6 +24,7 @@ body {
     src: url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 }
 
+<<<<<<< HEAD
 
  :root {
     --black1: #000;
@@ -33,6 +34,18 @@ body {
     --yellow1: #ddff0a;
     --grey2: #d9d9d9;
     
+=======
+:root {
+  --black1: #000;
+  --white1: #ffff;
+  --blue1: #0dd0eb;
+  --grey1: #5c6664;
+  --yellow1: #ddff0a;
+  --grey2: #d9d9d9;
+}
+body {
+  background-color: #0dd0eb;
+>>>>>>> 55ab5b37030c416da6ba108f97b79a0954adfc30
 }
 
 h1 {
@@ -76,8 +89,9 @@ main {
   align-items: center;
   flex-direction: column;
 }
-#tonPseudo{
-  color: #d9d9d9;
+
+#tonPseudo {
+  color: #5c6664;
   font-family: "Luckiest Guy";
   font-size: 2rem;
   text-align: center;
@@ -88,18 +102,17 @@ main {
   justify-content: center;
   flex-direction: column;
 }
-.selecteur{
-    display: flex ;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-}
- select{
-  display: center ;
+.selecteur {
+  display: flex;
   align-items: center;
   justify-content: center;
-} 
+  flex-direction: column;
+}
+select {
+  display: center;
+  align-items: center;
+  justify-content: center;
+}
 
 
 p {
@@ -107,6 +120,7 @@ p {
 }
 
 footer {
+<<<<<<< HEAD
 
     position: fixed;
     width: 100%;
@@ -118,15 +132,25 @@ footer {
     display: none;
 
   margin-top: 10rem;
+=======
+  margin-top: 5rem;
+>>>>>>> 55ab5b37030c416da6ba108f97b79a0954adfc30
   /*position: fixed;*/
   width: 100%;
   bottom: 0;
-  color: white;
+  color: #5c6664;
   font-family: "Luckiest Guy";
   text-align: center;
   margin-bottom: 1rem;
+<<<<<<< HEAD
   font-size: 1.5rem;
 
+=======
+  font-size: 3rem;
+}
+.footerp {
+  color: #5c6664;
+>>>>>>> 55ab5b37030c416da6ba108f97b79a0954adfc30
 }
 
 #start {
@@ -220,24 +244,22 @@ footer {
     width: 100%;
 }
 
-
-
-#note{
+#note {
   display: none;
 }
 
-#buttonNote{
+#buttonNote {
   display: none;
 }
 
-.noteQuizz{
+.noteQuizz {
   margin-top: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.coordonnées{
+.coordonnées {
   margin-top: 6rem;
   display: none;
 }
@@ -245,17 +267,17 @@ footer {
 #timer {
   font-weight: bold;
   font-size: 3em;
-  color:#d9d9d9;
-  text-shadow: 1px 1px 2px rgb(47, 43, 43);;
+  color: #d9d9d9;
+  text-shadow: 1px 1px 2px rgb(47, 43, 43);
 }
-#new{
+#new {
   background-color: #000;
   color: #d9d9d9;
   border: solid 1px white;
   border-radius: 15px;
   font-family: "Luckiest Guy";
-  font-size: 1rem;
+  font-size: 3rem;
   display: none;
-  margin-top:20px ;
+  margin-top: 20px;
+  padding-top: 10px;
 }
-

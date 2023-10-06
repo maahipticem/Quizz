@@ -55,10 +55,22 @@ const questions = [
         answer: "Pelé",
     },
     {
+<<<<<<< HEAD
         question: "Dans quelle ville est née la pétanque ?",
         options: ["Roubaix", "Rio de Janeiro", "Marseille", "La Ciotat"],
         answer: "La Ciotat", 
+=======
+        question: "Quel est la mer qui est au sud de la France ?",
+        options: ["mer Atlantique", "mer mediterrannée", "mer rouge", "mer Pacifique"],
+        answer: "mer mediterrannée",
+>>>>>>> 55ab5b37030c416da6ba108f97b79a0954adfc30
     },
+    {
+        question: "De quelle couleur est le drapeau de la France ?",
+        options: ["bleu blanc rouge", "rouge bleu blanc", "bleu rouge blanc", "ou l'autre"],
+        answer: "bleu blanc rouge"
+    
+    }
 ];
 
 
