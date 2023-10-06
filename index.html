@@ -14,8 +14,11 @@
     <header>
         <div class="header-container">
             <h1>QUIZZ<br> Challenge</h1>
-
-            <h2>ton pseudo:<span class="speudo"></span></h2>
+            <div class=titreDeux>
+                <h2 id="pseudoSupprimer">ton pseudo:</h2><span id="tonPseudo" class="pseudo"></span>
+                <input type="text" placeholder="Entre ton pseudo" id="pseudo" class="">
+                <button id="buttonPseudo"> ok </button>
+            </div>
         </div>
     </header>
     <main>
@@ -53,8 +56,16 @@
             </div>
 
         </div>
-       
 
+        <div class="noteQuizz">
+            <input type="text" placeholder="Note ton quizz sur 5 " id="note" class="">
+            <button id="buttonNote"> ok </button>
+        </div>
+
+
+        <div class="coordonnées">
+            <p>Quizz proposé par H.A.S.T <br> suit nous sur GIT HUB pour <br> plus de QUIZZ </p>
+        </div>
     </main>
     <footer>
         <p>
